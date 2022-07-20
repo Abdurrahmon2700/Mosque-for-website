@@ -1,0 +1,223 @@
+.hero_site_box {
+  position: relative;
+  background-color: #0e820e;
+  border-radius: 20px;
+  padding: 50px;
+  color: #fff !important;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.wrapper_item_islamic {
+  display: flex;
+}
+
+.ramka_img {
+  object-fit: cover;
+}
+.box_in_hero {
+  position: absolute;
+  top: 8%;
+  left: 2.5%;
+  height: 80vh;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  width: 95%;
+  background-size: cover;
+  opacity: 0.1;
+  margin: 0 auto;
+}
+
+.hero_title {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.hero_title_description {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+button {
+  color: #0e820e;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #ffffff;
+  opacity: 1;
+}
+
+.ramka {
+  width: 100%;
+  height: auto;
+}
+
+.main_site {
+  padding: 100px 0;
+}
+
+.item_islamic {
+  width: 20%;
+  padding: 40px 40px;
+  transition-duration: 0.5s;
+  display: flex;
+  justify-content: center;
+}
+
+.item_islamic:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%);
+  border-radius: 10px;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  transition-duration: 0.2s;
+  margin-bottom: 10px;
+}
+
+.elementor-animation-float {
+  transition-duration: 0.2s;
+}
+
+.elementor-animation-float:hover .icon {
+  transform: translateY(-5px);
+  transition-duration: 0.2s;
+}
+
+.quran_card {
+  width: 30%;
+  padding: 40px 40px;
+  margin-bottom: 20px;
+}
+
+.wrapper_info_islam {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info_islam_title {
+  line-height: 1.4;
+}
+
+.bxs-quote-left {
+  color: #0e820e;
+  font-size: 76px;
+}
+
+.mosque {
+  width: 18px;
+  height: 18px;
+}
+
+.read_more {
+  background-color: #0e820e;
+  color: #fff;
+}
+
+.wrapper_info_islam_right {
+  display: flex;
+  justify-content: center;
+}
+
+.mosque_img {
+  width: 515px;
+  height: 618px;
+  border-top-left-radius: 48%;
+  border-top-right-radius: 48%;
+  border-bottom-right-radius: 2%;
+  border-bottom-left-radius: 2%;
+}
+
+.praying_time_box {
+  background-color: #0e820e;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.quran_info_list {
+  justify-content: space-between;
+  width: 90%;
+}
+
+.quran_info_item {
+  width: 33%;
+  margin: 0 14px;
+}
+
+.quran_img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.help_box {
+  background-color: #0e820e;
+  border-radius: 20px;
+  margin: 100px 0;
+  padding: 100px;
+  color: #fff;
+}
+
+.input_email {
+  border-radius: 10px;
+  background-color: transparent;
+  border-style: solid;
+  border: 1px solid #fff;
+  padding: 10px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.input_email:focus {
+  outline: none;
+}
+
+.subscribe_btn {
+}
+@media screen and (max-width: 770px) {
+  .hero_site_box {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .wrapper_user_pray_img {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wrapper_item_islamic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .wrapper_info_islam {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .item_islamic {
+    width: 30%;
+  }
+  .mosque_img {
+    width: 100%;
+  }
+  .item_islamic {
+    width: 100%;
+  }
+
+  .quran_info_list {
+    width: 100%;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+  }
+
+  .quran_info_item {
+    width: 100%;
+  }
+}
