@@ -19,9 +19,9 @@ function Home(props) {
             ad minim veniam incididunt ut labore dolore.
           </p>
           <div className="d-flex align-center">
-            <button className="get_started">Get</button>
-            <a className="" href="  ">
-              Play
+            <button className="get_started">Get started</button>
+            <a className="w-25 me-5 px-3 py-3 text-light fs-6 " href="  ">
+              Play video
             </a>
           </div>
         </div>
