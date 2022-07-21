@@ -4,8 +4,8 @@
   margin: 0;
 }
 
-.footer {
-}
-
-.result {
+@media screen and (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
 }
