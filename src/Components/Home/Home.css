@@ -176,8 +176,36 @@ button {
   outline: none;
 }
 
-.subscribe_btn {
+.wrapper_list_item_islamic {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
+
+.get_started {
+  padding: 0 35px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+
+.get_started:hover {
+  width: auto;
+  background-color: #0e820e;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.info_islam_title {
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 992px) {
+  .wrapper_info_islam {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
 @media screen and (max-width: 770px) {
   .hero_site_box {
     display: flex;
@@ -219,5 +247,35 @@ button {
 
   .quran_info_item {
     width: 100%;
+  }
+
+  .wrapper_list_item_islamic {
+    text-align: center;
+  }
+
+  .hero_title {
+    font-size: 32px;
+  }
+
+  .hero_title_description {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .hero_title {
+    font-size: 24px;
+  }
+  .hero_title_description {
+    font-size: 12px;
+  }
+  .get_started {
+    padding: 0 10px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+  }
+
+  .info_islam_title {
+    margin-left: 0;
   }
 }

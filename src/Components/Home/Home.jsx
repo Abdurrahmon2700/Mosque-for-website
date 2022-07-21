@@ -19,9 +19,7 @@ function Home(props) {
             ad minim veniam incididunt ut labore dolore.
           </p>
           <div className="d-flex align-center">
-            <button className="w-25 me-5 px-3 py-3 rounded border border-0 fs-6">
-              Get started
-            </button>
+            <button className="get_started">Get started</button>
             <a className="w-25 me-5 px-3 py-3 text-light fs-6 " href="  ">
               Play video
             </a>
@@ -113,7 +111,7 @@ function Home(props) {
         <div className="wrapper_info_islam_left">
           <div className="d-flex me-5 mb-4 align-items-center">
             <i className="bx bxs-quote-left"></i>
-            <h2 className="info_islam_title ms-5">
+            <h2 className="info_islam_title">
               Take Good Advice From People Who Pronounce It Though He Does Not
               Practice
             </h2>
@@ -229,7 +227,7 @@ function Home(props) {
             eiusmod tempor incididunt ut labore et dolore magna aliqua
           </p>
         </div>
-        <ul className="d-flex justify-content-between flex-wrap">
+        <ul className="wrapper_list_item_islamic">
           <li className="item_islamic quran_card ">
             <div>
               <div className="elementor-animation-float">

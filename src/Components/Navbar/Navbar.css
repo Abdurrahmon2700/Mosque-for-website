@@ -25,3 +25,9 @@ a {
   width: 170px;
   height: 50px;
 }
+
+/* @media screen and (max-width: 576px) {
+  .navbar_list {
+    display: none;
+  }
+} */

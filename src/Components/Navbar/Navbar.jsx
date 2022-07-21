@@ -11,74 +11,110 @@ let activeStyle = {
 function Navbar(props) {
   return (
     <>
-      <div className="navbar_site">
-        <ul className="navbar_list">
-          <li className="mb-0">
-            <a className="d-flex justify-content-start mb-3" href="#">
-              <h1 className="mb-0">Alkavsar.uz</h1>
+      <div classNameName="navbar_site">
+        <nav className="navbar navbar-expand-lg bg-light">
+          <div>
+            <a classNameName="d-flex justify-content-start mb-3" href="#">
+              <h1 classNameName="mb-0">Alkavsar.uz</h1>
             </a>
-          </li>
-          <li>
-            <NavLink
-              to="/Home"
-              className=""
-              aria-current="page"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+          </div>
+          <div className="container-fluid">
+            <a className="navbar-brand" href="#">
+              Navbar
+            </a>
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
             >
-              Home
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/About"
-              className=""
-              aria-current="page"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div
+              className="collapse navbar-collapse"
+              id="navbarSupportedContent"
             >
-              About
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/Service"
-              className=""
-              aria-current="page"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
-            >
-              Service
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/Feature"
-              className=""
-              aria-current="page"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
-            >
-              Feature
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/Blog"
-              className=""
-              aria-current="page"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
-            >
-              Blog
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/Contact"
-              className=""
-              aria-current="page"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
-            >
-              Contact
-            </NavLink>
-          </li>
-        </ul>
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <li>
+                  <NavLink
+                    to="/Home"
+                    classNameName=""
+                    aria-current="page"
+                    style={({ isActive }) =>
+                      isActive ? activeStyle : undefined
+                    }
+                  >
+                    Home
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/About"
+                    classNameName=""
+                    aria-current="page"
+                    style={({ isActive }) =>
+                      isActive ? activeStyle : undefined
+                    }
+                  >
+                    About
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/Service"
+                    classNameName=""
+                    aria-current="page"
+                    style={({ isActive }) =>
+                      isActive ? activeStyle : undefined
+                    }
+                  >
+                    Service
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/Feature"
+                    classNameName=""
+                    aria-current="page"
+                    style={({ isActive }) =>
+                      isActive ? activeStyle : undefined
+                    }
+                  >
+                    Feature
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/Blog"
+                    classNameName=""
+                    aria-current="page"
+                    style={({ isActive }) =>
+                      isActive ? activeStyle : undefined
+                    }
+                  >
+                    Blog
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/Contact"
+                    classNameName=""
+                    aria-current="page"
+                    style={({ isActive }) =>
+                      isActive ? activeStyle : undefined
+                    }
+                  >
+                    Contact
+                  </NavLink>
+                </li>
+              </ul>
+              <form className="d-flex" role="search"></form>
+            </div>
+          </div>
+        </nav>
       </div>
     </>
   );

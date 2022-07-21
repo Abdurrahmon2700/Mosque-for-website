@@ -55,4 +55,7 @@ a {
     display: flex;
     flex-direction: column;
   }
+  .bxs-quote-left {
+    display: none;
+  }
 }
